@@ -1,15 +1,19 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
-   int A,N;
-   cin >> A >> N;
-   for(int i=0; i<6;i++){
-    cout << A+N*(i+1) <<endl;
-   }
-   
-   
-   
-    // Please write your code here.
+    // 변수 선언
+    int a, n;
+
+	// 입력
+	cin >> a >> n;
+    
+    // 출력
+	for(int i = 1; i <= n; i++) {
+		a += n;
+        cout << a << endl;
+    }
+
     return 0;
 }
