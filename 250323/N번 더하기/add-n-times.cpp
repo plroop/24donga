@@ -4,8 +4,8 @@ using namespace std;
 int main() {
    int A,N;
    cin >> A >> N;
-   for(int i=1; i<7;i++){
-    cout << A+N*i <<endl;
+   for(int i=0; i<6;i++){
+    cout << A+N*(i+1) <<endl;
    }
    
    
