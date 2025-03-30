@@ -18,7 +18,7 @@ int main() {
         cin >> arr[i];
     }
 
-    // 최댓값 출력
+  
     cout << findMax(arr, n - 1) << endl;
 
     return 0;
