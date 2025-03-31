@@ -3,12 +3,13 @@ using namespace std;
 
 int main() {
    
-int A,B,C,D;
+int A,B;
+int C,D;
 
 cin >> A >> B ;
 cin >> C >> D ;
 
-  if (A>B and C>D ){
+  if (A>B && C>D ){
     cout << 1;
   }
   else{
