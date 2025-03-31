@@ -6,8 +6,8 @@ int main() {
 int A,B;
 int C,D;
 
-cin >> A >> B ;
-cin >> C >> D ;
+cin >> A >> C ;
+cin >> B >> D ;
 
   if (A>B && C>D ){
     cout << 1;
